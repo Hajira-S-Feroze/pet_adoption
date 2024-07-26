@@ -1,0 +1,53 @@
+#h1{
+    color:darkslateblue;
+    text-decoration: underline;
+}
+h1{
+    color: cornflowerblue;
+}
+span{
+    color:crimson;
+    font-style: italic;
+}
+#pets{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#cards{
+    width:400px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+#h1:hover{
+    color: brown;
+}
+#cards:hover{
+    box-shadow:2px 2px 10px black;
+}
+img{
+    width:100%;
+    border-radius:25px;
+}
+h4{
+    font-style: italic;
+    color: darkblue;
+}
+#span{
+    color: red;
+}
+p{
+    font-family: cursive;
+    color:darkblue;
+}
+h3{
+    color:crimson;
+}
+@media(max-width:375px){
+    #pets{
+         flex-wrap: wrap;
+    }
+}
